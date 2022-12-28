@@ -1,0 +1,22 @@
+﻿<Page x:Class="DirectoryofSubcultures.View.rastafarians"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:DirectoryofSubcultures.View"
+      mc:Ignorable="d" 
+      d:DesignHeight="600" d:DesignWidth="1000"
+      Title="rastafarians">
+
+    <Grid>
+        <ScrollViewer Margin="250,80,0,0">
+            <StackPanel>
+                <Image Height="200" Width="300" Source="/View/Res/Image/rastafari/rastafari1.jpg"/>
+                <Label Content="Растаманами в мире традиционно называют последователей растафарианства.&#xD;&#xA;История&#xD;&#xA;Вместе с тем, в начале 1990-х годов на постсоветском пространстве образовалась особая молодёжная субкультура, &#xD;&#xA;представители которой также называют себя растаманами. При этом они зачастую не являются истинными приверженцами &#xD;&#xA;оригинальной религиозно-политической доктрины африканского превосходства, а причисляют себя к этой группе в первую &#xD;&#xA;очередь по признаку употребления марихуаны и гашиша."/>
+                <Image Height="200" Width="300" Source="/View/Res/Image/rastafari/rastafari.jpg"/>
+                <Label Content="Некоторым этого достаточно, чтобы считать себя растаманами, &#xD;&#xA;некоторые более приближены к растафарианской концепции — многие слушают Боба Марли и музыку регги в целом, используют &#xD;&#xA;для идентификации комбинацию цветов &quot;красный-жёлтый-зелёный&quot; (например, в одежде), некоторые носят дреды. Однако мало &#xD;&#xA;кто искренне отстаивает идею возвращения американских чернокожих в Африку, соблюдает растафарианский пост &quot;айтал&quot; и т. п."/>
+
+            </StackPanel>
+        </ScrollViewer>
+    </Grid>
+</Page>
